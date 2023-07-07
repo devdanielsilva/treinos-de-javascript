@@ -1,1 +1,1 @@
-alert('Treino de Javascript - ex002')
+alert('Treino de Javascript - ex002');
