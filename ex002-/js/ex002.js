@@ -1,0 +1,1 @@
+alert('Treino de Javascript - ex002')
