@@ -6,6 +6,6 @@ document.querySelectorAll('.btn').forEach((item) => {
     })
 })
 
-var n1 = prompt("Digite um número");
-var n2 = prompt("Digite um número");
-console.log(n1 + n2);
+var n1 = parseInt(prompt("Digite um número"));
+var n2 = parseInt(prompt("Digite um número"));
+alert( "O resultado da soma é: "+ (n1 + n2));
