@@ -6,7 +6,6 @@ document.querySelectorAll('.btn').forEach((item) => {
     })
 })
 
-var mensagem = "Eae";
 var n1 = prompt("Digite um número");
 var n2 = prompt("Digite um número");
 console.log(n1 + n2);
