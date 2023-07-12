@@ -26,6 +26,9 @@ alert("O resultado da soma é: " + soma);
 
 Para o sinal de mais + ser usado para adição, tem que ser, number + number. Para ser utilizado para uma concatenação, tem que ser, string + string.
 
+Para soma de números inteiros, usamos parseInt.
+Para soma de números Reais, usamos o parseFloat.
+
 */
 
 /*----------------------------------------------------*/
