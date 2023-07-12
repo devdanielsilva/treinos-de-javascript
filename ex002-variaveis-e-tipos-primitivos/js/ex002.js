@@ -11,6 +11,8 @@ document.querySelectorAll('.btn').forEach((item) => {
     })
 });
 
+/*----------------------------------------------------*/
+
 /*O script abaixo é de soma simples de duas variáveis.
 
 É um script de soma de duas notas, seja com vírgula ou não.*/
@@ -22,7 +24,11 @@ alert("O resultado da soma é: " + soma);
 
 /*O sinal de mais + , tem o efeito de adição e também tem o efeito de concatenação.
 
-Para o sinal de mais + ser usado para adição, tem que ser, number + number. Para ser utilizado para uma concatenação, tem que ser, string + string.*/
+Para o sinal de mais + ser usado para adição, tem que ser, number + number. Para ser utilizado para uma concatenação, tem que ser, string + string.
+
+*/
+
+/*----------------------------------------------------*/
 
 
 
