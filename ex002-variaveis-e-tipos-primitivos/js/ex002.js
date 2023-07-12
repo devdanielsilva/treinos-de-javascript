@@ -19,4 +19,6 @@ var n1 = parseFloat(prompt("Digite o primeiro número"));
 var n2 = parseFloat(prompt("Digite o segundo número"));
 var soma = alert("O resultado da soma é: " + (n1 + n2) + '!');
 
+/*O sinal de mais + , tem o efeito de adição e também tem o efeito de concatenação.*/
+
 
