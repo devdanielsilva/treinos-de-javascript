@@ -20,6 +20,9 @@ var n2 = parseFloat(prompt("Digite o segundo número"));
 var soma = n1 + n2;
 alert("O resultado da soma é: " + soma);
 
-/*O sinal de mais + , tem o efeito de adição e também tem o efeito de concatenação.*/
+/*O sinal de mais + , tem o efeito de adição e também tem o efeito de concatenação.
+
+Para o sinal de mais + ser usado para adição, tem que ser, number + number. Para ser utilizado para uma concatenação, tem que ser, string + string.*/
+
 
 
