@@ -38,13 +38,18 @@ O window.prompt ou só prompt, esse comando nos retorna valores como string, mes
 */
 
 /*----------------------------------------------------*/
-/*Conversão de string para número é muito simples. 
+/*Conversão de string para número é muito simples.
 
 Podemos usar o Number.parseInt, que usado para números Inteiros. Podemos usar o Number.parseFloat, que é usado para números Reais, números com vírgula. (É parseFloat, porque o número com vírgula, essa vírgula é um ponto, é chamado de PONTO FLUTUANTE - (Float point).*/
 /*----------------------------------------------------*/
 /*CONVERSÃO DE NÚMERO PARA STRING:
 Temos 2 formas para fazer isso.
 
-Podemos usar*/
-/*-----------------------------------------------------*/
+Podemos usar String(n), no lugar do n, colocamos o valor numérico dentro do parenteses. Que ele vai converter o valor numérico que você quer para String (Caractere). A sintaxe String(n), é a mais recente para conversão de números pra string.
 
+Podemos usar o n.toString(), o n será o valor numérico a ser convertido.
+
+Essas 2 formas são muito utéis para conversão de números para string.*/
+
+/*-----------------------------------------------------*/
+//CTRL + SHIFT ' SINAL DE CRASE.
