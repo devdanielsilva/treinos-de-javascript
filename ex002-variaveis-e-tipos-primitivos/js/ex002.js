@@ -29,7 +29,7 @@ Para o sinal de mais + ser usado para adição, tem que ser, number + number. Pa
 Para soma de números inteiros, usamos parseInt.
 Para soma de números Reais, usamos o parseFloat.
 --------------------------------------------------------
-O window.prompt ou só prompt, nos retorna valores como string, mesmo que seja números Inteiros ou Reais.
+O window.prompt ou só prompt, esse comando nos retorna valores como string, mesmo que seja números Inteiros ou Reais. Ele trata todos os valores como string.
 */
 
 /*----------------------------------------------------*/
