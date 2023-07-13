@@ -26,13 +26,25 @@ alert("O resultado da soma é: " + soma);
 --------------------------------------------------------
 Para o sinal de mais + ser usado para adição, tem que ser, number + number. Para ser utilizado para uma concatenação, tem que ser, string + string.
 --------------------------------------------------------
-Para soma de números inteiros, usamos parseInt.
-Para soma de números Reais, usamos o parseFloat.
+Para soma de números inteiros, usamos parseInt. O I de parseInt é sempre maiúsculo.
+
+Para soma de números Reais, usamos o parseFloat. O F de parseFloat é sempre maiúsculo.
+
+Parse é converter, parcia algo.
+
+Podemos usar só Number, ai o JAVASCRIPT se vira para com a conversão para tipo definido. Claro que o uso da sintaxe Number não elimina o uso da sintaxe parseInt e ou, da sintaxe ParseFloat, depende muito do tipo do projeto.
 --------------------------------------------------------
 O window.prompt ou só prompt, esse comando nos retorna valores como string, mesmo que seja números Inteiros ou Reais. Ele trata todos os valores como string.
 */
 
 /*----------------------------------------------------*/
-/*Conversão de string para número é muito simples. Podemos usar o Number.parseInt, que usado para números Inteiros. Podemos usar o Number.parseFloat, que é usado para números Reais, números com vírgula.*/
+/*Conversão de string para número é muito simples. 
 
+Podemos usar o Number.parseInt, que usado para números Inteiros. Podemos usar o Number.parseFloat, que é usado para números Reais, números com vírgula. (É parseFloat, porque o número com vírgula, essa vírgula é um ponto, é chamado de PONTO FLUTUANTE - (Float point).*/
+/*----------------------------------------------------*/
+/*CONVERSÃO DE NÚMERO PARA STRING:
+Temos 2 formas para fazer isso.
+
+Podemos usar*/
+/*-----------------------------------------------------*/
 
