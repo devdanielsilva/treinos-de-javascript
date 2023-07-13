@@ -33,6 +33,6 @@ O window.prompt ou só prompt, esse comando nos retorna valores como string, mes
 */
 
 /*----------------------------------------------------*/
-
+/*Conversão de string para número é muito simples. Podemos usar o Number.parseInt, que usado para números Inteiros. Podemos usar o Number.parseFloat, que é usado para números Reais, números com vírgula.*/
 
 
