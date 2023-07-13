@@ -20,7 +20,7 @@ document.querySelectorAll('.btn').forEach((item) => {
 var n1 = parseFloat(prompt("Digite o primeiro número"));
 var n2 = parseFloat(prompt("Digite o segundo número"));
 var soma = n1 + n2;
-alert("O resultado da soma é: " + soma);
+alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`); //Alert utilizando o template string.
 
 /*O sinal de mais + , tem o efeito de adição e também tem o efeito de concatenação.
 --------------------------------------------------------
