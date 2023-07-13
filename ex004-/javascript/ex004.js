@@ -10,3 +10,5 @@ length é o comprimento de algo.*/
 SÍMBOLO DE CRASE É ESSE: `
 SÍMBOLO DE ASPAS SIMPLES É ESSE: '
 */
+//------------------------------------------------
+document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()}`); /*O Atributo toUpperCase, serve para deixar os caracteres em LETRAS MAIÚSCULAS.*/
