@@ -1,5 +1,5 @@
 var nome = prompt('Qual é o seu nome?'); /*Nesse caso aqui, o prompt é uma tela com um botão de ok. Serve para mostrar algo.*/
-
+/*-----------------------------------------------*/
 document.write(`Olá,<strong> ${nome}</strong>! Seu nome tem ${nome.length} letras.`); /*document.write escreve na tela direto, sem precisar de telinha.
 
 Esse nome.length serve para saber o tamanho de caracteres.
@@ -15,3 +15,4 @@ A tag strong deixa a palavra ou trecho de texto em negrito de forma semântica.
 */
 //------------------------------------------------
 document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()} `); /*O Atributo toUpperCase, serve para deixar os caracteres em LETRAS MAIÚSCULAS.*/
+/*----------------------------------------------*/
