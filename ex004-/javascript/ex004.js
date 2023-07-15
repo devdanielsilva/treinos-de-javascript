@@ -19,3 +19,4 @@ Quebra de linha, antes do final das aspas, independente qual seja o tipo de aspa
 document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()} <br/>`); /*O Atributo toUpperCase, serve para deixar os caracteres em LETRAS MAIÚSCULAS.*/
 /*----------------------------------------------*/
 document.write(`Seu nome em minúsculo é ${nome.toLowerCase} <br/>`) /*O Atributo toLowerCaser, server para deixar os caracteres em letras minúsculas.*/
+/*----------------------------------------------*/
