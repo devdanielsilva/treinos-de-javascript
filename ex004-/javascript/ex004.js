@@ -12,7 +12,10 @@ SÍMBOLO DE ASPAS SIMPLES É ESSE: '
 --------------------------------------------------
 USAR <strong> NO ${nome}, não tem problema.
 A tag strong deixa a palavra ou trecho de texto em negrito de forma semântica.
+
+Quebra de linha, antes do final das aspas, independente qual seja o tipo de aspas, podemos usar a tag <br/> para quebra de linha. Sempre que precisarmos, sem problema nenhum.
 */
 //------------------------------------------------
-document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()} `); /*O Atributo toUpperCase, serve para deixar os caracteres em LETRAS MAIÚSCULAS.*/
+document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()} <br/>`); /*O Atributo toUpperCase, serve para deixar os caracteres em LETRAS MAIÚSCULAS.*/
 /*----------------------------------------------*/
+document.write(`Seu nome em minúsculo é ${nome.toLowerCase} <br/>`) /*O Atributo toLowerCaser, server para deixar os caracteres em letras minúsculas.*/
