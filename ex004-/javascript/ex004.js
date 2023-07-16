@@ -39,3 +39,4 @@ Ai o ponto vai ser trocado.
 */
 
 n1.toFixed(2).replace('.', ',');
+//
