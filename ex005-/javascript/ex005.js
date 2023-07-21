@@ -94,7 +94,40 @@ Em quarto lugar, vem a Adição (+) e Subtração (-).
 */
 /*------------------------------------------
 ATRIBUIÇÃO SIMPLES
+Sinal de igual em uma expressão, não é sinal de igual, é sinal de recebe.
 
+var a = 5 + 3 
+A variável a recebe o valor de 5 + 3. 
+5 + 3 = 8
+Então, a variável a recebe 8. 
+a = 8
+........................................................................................
+var b = a % 5 
+A variável b recebe o valor de a % 5.
+a % 5 =
+Então, a variével b recebe  
+b = 
+.........................................................................................
+var c = 5 * b ** 2
+A variável c recebe o valor de 5 * b ** 2
+Então, c recebe o valor de 
+c = 45
+.........................................................................................
+var d = 10 - a / 2
+A variável d recebe o valor de 10 - a / 2.
+Então, d recebe o valor de 
+d = 6
+..........................................................................................
+var e = 6 * 2 / d
+A variável e recebe o valor de 6 * 2 / d.
+Então, e recebe o valor de 
+e = 2
+..........................................................................................
+var f = b % e + 4 / e
+A variável f recebe o valor b % e + 4 / e
+Então, f recebe o valor de 
+f = 3
+...........................................................................................
 */
 /*------------------------------------------
 
