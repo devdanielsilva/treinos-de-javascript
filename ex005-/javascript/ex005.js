@@ -206,4 +206,23 @@ Então o valor de n, deixa de vale 16 para no final valer 1).
 No geral tudo isso de tirar valor, colocar valor, e utilizar o valor anterior que estava dentro da variável como número para soma (adição), subtração, multiplicação, divisão, potencia, entre outras diversas formas. Tudo isso se chma auto-atribuição, que é atribuir a si próprio, um valor maior ou menor......   
 ............................................................................................
 
+Podemos simplificar a auto-atribuição
+EXEMPLOS:
+
+Em vez de digitar, (n = n + 4) digitamos [n + = 4]
+E isso serve para todos os outras operações.
+
+(n = n - 5) trocamos por [n - = 5]
+
+(n = n * 4) trocamos por [n * = 4]
+
+(n = n / 2) trocamos por [n / = 2]
+
+(n = n ** 2) trocamos por [n ** = 2]
+
+(n = n % 5) trocamos por [n % = 5]
+......................................................................................................
+Lembrando que, esse tipo de simplificação de auto-atribuição, só é válida somente se o valor de n, ou qualquer que seja a variável, se essa variável receber o valor dela mesmo com outro valor. Só não é válida, por exemplo: n x + = 4 , esse formato e esse tipo de auto-atribuição, não é válida.
+--------------------------------------------------------------------------------------------
+
 */
