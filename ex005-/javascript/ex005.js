@@ -227,6 +227,7 @@ Lembrando que, esse tipo de simplificação de auto-atribuição, só é válida
 Aprendendo sobre isso, dá para ser utilizado em quase toda linguagem de programação. As linguagens que aceita essa simplificação de Auto-atribuição / Autorreferência são: JAVASCRIPT, JAVA, C, PYTHON, PHP, entre diversas liguagens aceitam este tipo de sintaxe. Principalmente as linguagens atuais.
 
 Simplificação de auto-atribuição, é uma forma resumida de auto - atribuir um valor a uma variável.
---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------*/
+/* OPRADORES DE INCREMENTO
 
 */
