@@ -174,6 +174,36 @@ f = 3
 AUTO-ATRIBUIÇÕES
 
 São atribuições a própria variável.
+..........................................................................................
+EXEMPLO DE AUTO-ATRIBUIÇÃO:
+
+Atribuição simples ( var n = 3 ) 
+
+n = n + 4 
+(Pegamos o valor de n que é 3, e somamos mais 4. 3 + 4 = 7
+Dai jogamos o resultado 7 da variável n, no lugar do resultado 3).
+
+n = n - 5 
+(Pegamos o valor de n, que agora é 7, e subtraimos 5. Fica assim: 5 - 7 = 2.
+Dai colocamos 2 no lugar do 7 dentro da variável n).
+
+n = n * 4 
+(Pegamos o valor de n, que é 2, e multplicamos por 4. 2 * 4 = 8
+Dai fazemos a substituição de 2 por 4, dentro da variável n).
+
+n = n / 2
+(Pegamos o valor de n, que passou a 8, e dividimos por 2. 8 / 2 = 4
+Dai jogamos o valor 4 dentro da variável n).
+
+n = n ** 2
+(Pegamos o valor de n, que passou a ser 4 e fazemos uma exponeciação. 4 ** 2 = 16 
+Dai jogamos dentro da variável o 16 no lugar do 4)
+
+n = n % 5
+(Pegamos o valor de n, que é 16 e fazemos o resto da divisão. 16 % dividido por 5 = O resto inteiro é 3, eai fazemos uma Multiplicação, 3 * 5 = 15 para 16 resta 1. 
+Então o valor de n, deixa de vale 16 para no final valer 1).
+...................................................................................................
+No geral tudo isso de tirar valor, colocar valor, e utilizar o valor anterior que estava dentro da variável como número para soma (adição), subtração, multiplicação, divisão, potencia, entre outras diversas formas. Tudo isso se chma auto-atribuição, que é atribuir a si próprio, um valor maior ou menor......   
 ............................................................................................
 
 */
