@@ -152,14 +152,25 @@ Seguindo a ordem de precedência, primeiro fazemos a divisão inteira, depois a 
 
 b é = 3
 e é = 2
+...........................................
+PRIMEIRO A DIVISÃO DO RESTO INTEIRO (% Dividido o resto por inteiro)
+b % e - (3 % dividido por 2 o resto.)
+3 % 2 = 1. Dá 1 e resta 1.
 
-PRIMEIRO A DIVISÃO DO RESTO INTEIRO (% Dividido o resto )
-b % e - (3 % dividido o resto. Dividido por 2)
+SEGUNDO A DIVISÃO "COMUM" ( / DIVISÃO)
+e = 2
+4 / e = 2 , para 5 resta 1. Logo 4 / e = 1
+
+E POR ÚLTIMO FAZEMOS A ADIÇÃO:
+2 + 1 = 3
+B + E = 3
 
 Então, f recebe o valor de 3.
 f = 3
 ...........................................................................................
 */
 /*------------------------------------------
+AUTO-ATRIBUIÇÕES
+
 
 */
