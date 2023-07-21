@@ -104,28 +104,41 @@ a = 8
 ........................................................................................
 var b = a % 5 
 A variável b recebe o valor de a % 5.
+a é 8. 8 % dividido por 5 é = 1. 5 * 1 = 5. Para 8 restam 3.
+
 a % 5 = 3
-Então, a variével b recebe  
+Então, a variével b recebe 3.
 b = 3
 .........................................................................................
 var c = 5 * b ** 2
 A variável c recebe o valor de 5 * b ** 2.
-Então, c recebe o valor de 
+Nessa operação dessa expressão, começamos fazendo do final para o início. 
+
+Seria assim b ** ao quadrado vezes 2. 
+O b vale 3, 3 ** ao quadrado é 9.
+9 * vezes 5 é = 45.
+
+Então, c recebe o valor de 45.
 c = 45
 .........................................................................................
 var d = 10 - a / 2
 A variável d recebe o valor de 10 - a / 2.
-Então, d recebe o valor de 
+Pela ordem de precêdencia, a divisão vem primeiro que a subtração.
+
+Então fica assim: a vale 8 / dividido por 2 é = 4.
+4 - 10 = 6
+
+Então, d recebe o valor de 6.
 d = 6
 ..........................................................................................
 var e = 6 * 2 / d
 A variável e recebe o valor de 6 * 2 / d.
-Então, e recebe o valor de 
+Então, e recebe o valor de 2.
 e = 2
 ..........................................................................................
 var f = b % e + 4 / e
 A variável f recebe o valor b % e + 4 / e
-Então, f recebe o valor de 
+Então, f recebe o valor de 3.
 f = 3
 ...........................................................................................
 */
