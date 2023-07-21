@@ -72,8 +72,30 @@ Eai podemos prosseguir.
 5 + 3 = 8 / 2 = 4
 
 */
-/
+/*------------------------------------------
+## DICAS SOBRE O USO DE OPERADORES
+
+Não receber mensagens de erros, não significa que o programa está funcionando. Pode significar que ele não contem erros sintáticos. Que você não escreveu nenhum comando errado, mas o seu comando pode estar executando uma conta errada.
+
+EXEMPLO: 
+
+5 + 3 / 2  —→ De forma aritmética e sintática, está correta.
+
+5 + / 2  —→ De forma aritmética está errada. 
+Em qualquer linguagem de programação, em qualquer expressão. 
+
+Em primeiro lugar é analisado todos os parênteses.
+
+Em segundo lugar, vez as potencias (**).
+
+Em terceiro lugar, vez a Multiplicação (*), a Divisão (/) e o Resto da Divisão (%) - (Divisão como Inteiro). As três juntas, exatamente nessa ordem. Mas se a três operações estiverem na mesma expressão, fazemos a operação da esquerda para a direita.
+
+Em quarto lugar, vem a Adição (+) e Subtração (-).
+*/
 /*------------------------------------------
 ATRIBUIÇÃO SIMPLES
+
+*/
+/*------------------------------------------
 
 */
