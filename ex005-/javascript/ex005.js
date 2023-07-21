@@ -133,11 +133,29 @@ d = 6
 ..........................................................................................
 var e = 6 * 2 / d
 A variável e recebe o valor de 6 * 2 / d.
+
+Nessa expressão temos algo bem curioso. Na ordem de precedência, * Multiplicação e / Divisão, estão juntas. Quando acontece de ter essas 2 operações em uma expressão, a ordem e ir da Direita para a esquerda. 
+
+Nesse caso primeiro é feita a resolução da Multiplicação e depois da Divisão.
+
+6 * vezes 2 = 12
+ d = 6 , logo.
+ 12 / dividido por 6 = 2
+
 Então, e recebe o valor de 2.
 e = 2
 ..........................................................................................
 var f = b % e + 4 / e
 A variável f recebe o valor b % e + 4 / e
+
+Seguindo a ordem de precedência, primeiro fazemos a divisão inteira, depois a divisão e por último a adição.
+
+b é = 3
+e é = 2
+
+PRIMEIRO A DIVISÃO DO RESTO INTEIRO (% Dividido o resto )
+b % e - (3 % dividido o resto. Dividido por 2)
+
 Então, f recebe o valor de 3.
 f = 3
 ...........................................................................................
