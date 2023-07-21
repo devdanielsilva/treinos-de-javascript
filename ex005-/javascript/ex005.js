@@ -168,6 +168,7 @@ B + E = 3
 Então, f recebe o valor de 3.
 f = 3
 ...........................................................................................
+[Dica sobre variável: A variável é como se fosse uma vaga de um estacionamento, se queremos colocar um carro em uma vaga que já tem um carro. Primeiro tiramos o primeiro carro e depois colocamos o segundo carro no lugar do primeiro. Com as variáveis é exatamente assim que acontece.
 */
 /*------------------------------------------
 AUTO-ATRIBUIÇÕES
