@@ -230,4 +230,14 @@ Simplificação de auto-atribuição, é uma forma resumida de auto - atribuir u
 --------------------------------------------------------------------------------------------*/
 /* OPRADORES DE INCREMENTO
 
+var x = 5
+A variável vale 5, e queremos adicionar mais 1 número a variável, fazemos assim ((x = x + 1) Isso significa que estamos adicionamos mais um número a variável, logo ela deixa de vale  e passa a valer 6).
+
+Mesma coisa vale para tirar 1 número, ou seja, subtrair um número. ((x = x - 1) Com isso, o valor da variável antes era 6 e agora passa a valer 5 novamente).
+
+Podemos usar a simplificação do incremento: 
+(x = x + 1) trocamos por [x + = 1]
+(x = x - 1) trocamos por [x - = 1]
+
+---------------------------------------------------------------------------------------------
 */
