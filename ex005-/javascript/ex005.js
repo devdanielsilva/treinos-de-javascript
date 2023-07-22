@@ -258,4 +258,4 @@ Pós - incremento (x++) soma depois. E (x--) tira depois.
 
 var pergunta = prompt('JAVASCRIPT É DAORA ?'); //Treino de declaração de variável.
 
-alert('Isso ae, JAVASCRIPT é a linguagem mais top de de todas !'); //Treino de janela alert.
+alert('Isso ae, JAVASCRIPT é a linguagem mais top de todas !'); //Treino de janela alert.
