@@ -240,4 +240,22 @@ Podemos usar a simplificação do incremento:
 (x = x - 1) trocamos por [x - = 1]
 
 ---------------------------------------------------------------------------------------------
+## FORMA DE SIMPLIFICAR AINDA MAIS:
+
+Podemos simplificar (x = x + 1) com [x + =1]
+Podemos simplificar de um jeito melhor, basta substituir (x + = 1 ou x - = 1) por [x ++] ou [x --]
+
+Conforme fomos evoluindo em linguagens de programação, notamos que utilizamos muito x + = 1 e x - = 1 , ou seja, a variável recebe a variável mais 1 ou menos 1. Para simplificar ainda mais isso, podemos usar [x ++] para substituir (x += 1). E [x --] para substituir (x -= 1).
+
+………………………………………………………………………………………………………………………………………………………………
+
+## Pré - incremento e Pós - incremento
+
+Pré - incremento (++x) soma antes. E (--x) tira antes.
+Pós - incremento (x++) soma depois. E (x--) tira depois.
+-----------------------------------------------------------------------------------------
 */
+
+var pergunta = prompt('JAVASCRIPT É DAORA ?'); //Treino de declaração de variável.
+
+alert('Isso ae, JAVASCRIPT é a linguagem mais top de de todas !'); //Treino de janela alert.
