@@ -7,7 +7,8 @@
         O alert só te dá a opção de um botão Ok.*/
 alert('Minha primeira mensagem.');
 
-/*window.confirm(''); serve para te mostrar uma janela com uma mensagem de confirmação, ou seja, uma mensagem para o usuário confirmar.
+/*------------------------------------------------------------------------------------------------
+window.confirm(''); serve para te mostrar uma janela com uma mensagem de confirmação, ou seja, uma mensagem para o usuário confirmar.
  
 Esse comando pode ser usado com o window. na frente ou não. Seguindo o mesmo exemplo do alert.
  
