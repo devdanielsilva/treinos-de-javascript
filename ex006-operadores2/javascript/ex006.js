@@ -1,0 +1,1 @@
+var variavel=prompt('digite seu nome');alert('bem vindo '+variavel);
