@@ -1,1 +1,1 @@
-var variavel=prompt('digite seu nome');alert('bem vindo '+variavel);
+var variavel = prompt('digite seu nome'); alert('Bem-vindo ' + variavel + '!');
