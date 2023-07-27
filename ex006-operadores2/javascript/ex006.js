@@ -1,2 +1,2 @@
-var saudacao = prompt('digite seu nome'); alert('Bem-vindo a aula de operadores parte 2 ' + variavel + '!');
+var saudacao = prompt('Digite seu nome'); alert('Bem-vindo a aula de operadores parte 2 ' + saudacao + '!');
 /**/
