@@ -14,7 +14,7 @@ Esse comando pode ser usado com o window. na frente ou não. Seguindo o mesmo ex
 O confirm te dá dois botões de interação, que são o Ok e o cancela, mas nada te impede de mudar para Sim ou Não.*/
 
 /*Podemos pular linha em uma mensagem no javascript, tanto no alert, confirm, prompt ou em qualquer outro.
-Basta usar junto ao texto ou em qualquer outro lugar, o \n*/
+Basta usar junto ao texto ou em qualquer outro lugar em que o texto for quebrado para outra linha, usamos o \n junto ao texto.*/
 window.confirm('Mais um comando em \nJavascript.');
 
 /*window.prompt ou só prompt() exibe uma caixa de diálogo com uma mensagem opcional solicitando ao usuário a entrada de algum texto ou entrada de dados diversos.*/
