@@ -6,5 +6,10 @@ var saudacao = prompt('Digite seu nome'); alert('Bem-vindo a aula de operadores 
 Os operadores relacionais do Javascript, são os mesmos da grande maioria das linguagens de programação.
 
 TIPOS DE OPERADORES RELACIONAIS:
-
+Operador de maior é o >
+Operador de menor é o <
+Operador de maior que é o >=
+Operador de menor que é o <=
+Operador de igual e diferente é o ==
+Operador de diferente é o !=
 */
