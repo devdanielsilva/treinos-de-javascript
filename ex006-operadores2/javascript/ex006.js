@@ -2,4 +2,9 @@
 como mostra logo abaixo.*/
 var saudacao = prompt('Digite seu nome'); alert('Bem-vindo a aula de operadores parte 2 ' + saudacao + '!');
 
-/* */
+/*OPERADORES RELACIONAIS:
+Os operadores relacionais do Javascript, são os mesmos da grande maioria das linguagens de programação.
+
+TIPOS DE OPERADORES RELACIONAIS:
+
+*/
