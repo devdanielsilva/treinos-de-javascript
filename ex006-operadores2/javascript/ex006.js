@@ -12,4 +12,7 @@ Operador de maior que é o >=
 Operador de menor que é o <=
 Operador de igual e diferente é o ==
 Operador de diferente é o !=
+
+Para toda expressão que tenha um operador relacional ligado a ela, o resultado dessa expressão vai sempre ser um valor booleano. Um valor do tipo Verdadeiro ou Falso.
+
 */
