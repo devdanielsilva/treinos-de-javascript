@@ -14,4 +14,4 @@ Os operadores relacionais do Javascript, são os mesmos da grande maioria das li
 
 5 == 5 É verdadeiro (TRUE), 5 é igual a cinco.
 
-5 == ‘5’ É verdadeiro também, pois dois sinais de iguais == é para saber se é igual, ou seja, não verifica o tipo, se tem aspas ou não. 
+5 == ‘5’ É verdadeiro também, pois dois sinais de iguais == é para saber se é igual, ou seja, se é valor numérico ou string. 
