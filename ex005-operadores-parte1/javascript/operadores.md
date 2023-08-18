@@ -18,4 +18,4 @@ Para toda expressão que tenha um operador relacional ligado a ela, o resultado 
 5 == 5 É verdadeiro (true), porque 5 é igual a 5. <br>No Javascript o sinal de igual é, dois sinais de igual juntos == Um único sinal de igual = é, sinal de recebe, ou seja, sinal de atribuição. <br>
 4 != 4 Esse sinal de exclamação e sinal de igual, é sinal de não-igual, e uma coisa que não é igual, é diferente. <br> Nesse caso é Falso (false), porque 4 é igual a 4. <br> <hr>
 ### Operador typeof <br>
-O typeof é uma palavra-chave em JavaScript que retornará o tipo da variável quando você a chama. Você pode usá-la para validar parâmetros de função ou verificar se as variáveis estão definidas. Há outros usos também. O operador typeof é útil porque é uma maneira fácil de verificar o tipo de uma variável em seu código. <br> <hr>
+O typeof é uma palavra-chave em JavaScript que retornará o tipo da variável quando você a chama. <br> Você pode usá-la para validar parâmetros de função ou verificar se as variáveis estão definidas. <br> Há outros usos também. O operador typeof é útil porque é uma maneira fácil de verificar o tipo de uma variável em seu código. <br> <hr>
