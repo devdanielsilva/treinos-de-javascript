@@ -21,7 +21,7 @@ Sinal de desigual restrito !== <br> EXEMPLO: x !== y e tem o valor 5 cada um, é
 ### Operador typeof <br>
 O typeof é uma palavra-chave em JavaScript que retornará o tipo da variável quando você a chama. <br> Você pode usá-la para validar parâmetros de função ou verificar se as variáveis estão definidas. <br> Há outros usos também. O operador typeof é útil porque é uma maneira fácil de verificar o tipo de uma variável em seu código. <br> <hr>
 ### Operadores Lógicos<br>
-! - Negação, Sinal de Exclamação: Serve para negação, ou seja, quer dizer não.<br> O operador de negação é tratado como um operador unário.<br> Ou seja, ele só tem um operando, isso é depois da exclamação colocamos ou o valor true ou, o o valor false, <hr>
+! - Negação, Sinal de Exclamação: Serve para negação, ou seja, quer dizer não.<br> O operador de negação é tratado como um operador unário.<br> Ou seja, ele só tem um operando, isso é depois da exclamação colocamos ou o valor true (verdadeiro) ou, o o valor false (falso). Ou uma expressão que dê true ou false. <hr>
 && - Dois e comerciais: Serve para conjunção, é chamado de elógico.<br><hr>
 || - Sinal ou tecla de pipe: Serve para disjunção, é chamado de oulógico. <br><hr>
 
