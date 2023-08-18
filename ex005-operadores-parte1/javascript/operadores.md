@@ -20,3 +20,7 @@ Para toda expressão que tenha um operador relacional ligado a ela, o resultado 
 Sinal de desigual restrito !== <br> EXEMPLO: x !== y e tem o valor 5 cada um, é igual a true (verdadeiro) ou seja, são de tipos diferentes, e o valor interno é o mesmo.<hr>
 ### Operador typeof <br>
 O typeof é uma palavra-chave em JavaScript que retornará o tipo da variável quando você a chama. <br> Você pode usá-la para validar parâmetros de função ou verificar se as variáveis estão definidas. <br> Há outros usos também. O operador typeof é útil porque é uma maneira fácil de verificar o tipo de uma variável em seu código. <br> <hr>
+### Operadores Lógicos<br>
+! - Exclamação<br>
+&& - Dois e comerciais<br>
+
