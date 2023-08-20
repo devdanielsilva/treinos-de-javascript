@@ -36,4 +36,5 @@ a <= b || b /2 == 2 <br>
 Primeiro, resolvemos o operador aritmético, b que é 8 / dividido por 2, é 4. 4 é igual == a 2. Não, logo o resultado é false. <br>
 Segundo, resolvemos o operador relacional, a que é 5, é menor <= ou igual a b que é 8, não, logo o resultado é false.<br>
 Terceiro e último, resolvemos o operador lógico, se um dos lados for true, então o resultado da expressão é true, mesmo que um dos lados for false.<br>
-
+E SE TIVERMOS UM && COMERCIAL E UM || OU E UM NÃO NA MESMA EXPRESSÃO? O QUE FAZER?<br>
+Caso isso aconteça, a ordem de resolução é sempre essa, PRIMEIRO RESOLVE O NÃO, DEPOIS RESOLVE O && COMERCIAL E POR ÚLTIMO RESOLVE O || OU.<br>
