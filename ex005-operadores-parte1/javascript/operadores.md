@@ -31,4 +31,9 @@ Primeiro fazemos a resolução de todos os operadores aritméticos, segundo todo
 EXEMPLO USANDO O ELÓGICO:<br> a > b && b % 2 == 0 <br> Primeiro é resolvido o b % 2, b é 8 / dividido por 2, dá 4 resta 0 <br> Ai no lado do b %, o resultado é true. <br>
 Segundo é resolvido o operador relacional, o a > b, a é > maior que b, a é 5 e b é 8, e o resultado é false.<br> 
 Portanto o resultado da expressão é false.<br> False e True, dá false.<br>
+<br>EXEMPLO USANDO O OULÓGICO: <br> 
+a <= b || b /2 == 2 <br>
+Primeiro, resolvemos o operador aritmético, b que é 8 / dividido por 2, é 4. 4 é igual == a 2. Não, logo o resultado é false. <br>
+Segundo, resolvemos o operador relacional, a que é 5, é menor <= ou igual a b que é 8, não, logo o resultado é false.<br>
+Terceiro e último, resolvemos o operador lógico, se um dos lados for true, então o resultado da expressão é true, mesmo que um dos lados for false.<br>
 
