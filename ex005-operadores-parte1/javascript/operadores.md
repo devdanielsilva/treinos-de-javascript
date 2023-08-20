@@ -27,9 +27,8 @@ O operador de negação é um operador bem simples de entender.<hr>
 && - Dois e comerciais: Serve para conjunção, é chamado de elógico. E um operador binário, ou seja, tem dois valores lógicos, um de cada lado, que nos dá o resultado lógico da expressão.<br><hr>
 || - Sinal ou tecla de pipe: Serve para disjunção, é chamado de oulógico. E também é um operador binário, e assim como os dois && comercial, ele também nos dá um resultado lógico da expressão. <br>A diferença do && comercial e do || pipe, é que com o uso do pipe, que é o ou lógico, nele basta que um dos resultados sejam verdadeiros para que o resultado da expressão seja verdadeiro.<br><hr>
 Quando temos operadores aritméticos, relacionais e lógicos, na mesma expressão. 
-Primeiro fazemos a resolução de todos os operadores aritméticos, segundo todos os operadores relacionais e em terceiro e por último, o operador lógico.
-EXEMPLO USANDO O ELÓGICO: a > b && b % 2 == 0 <br> Primeiro é resolvido o b % 2, b é 8 / dividido por 2, dá 4 resta 0 <br> 
-Ai no lado do b %, o resultado é true. <br>
+Primeiro fazemos a resolução de todos os operadores aritméticos, segundo todos os operadores relacionais e em terceiro e por último, o operador lógico.<br>
+EXEMPLO USANDO O ELÓGICO:<br> a > b && b % 2 == 0 <br> Primeiro é resolvido o b % 2, b é 8 / dividido por 2, dá 4 resta 0 <br> Ai no lado do b %, o resultado é true. <br>
 Segundo é resolvido o operador relacional, o a > b, a é > maior que b, a é 5 e b é 8, e o resultado é false.<br> 
 Portanto o resultado da expressão é false.<br> False e True, dá false.<br>
 
