@@ -25,5 +25,5 @@ O typeof é uma palavra-chave em JavaScript que retornará o tipo da variável q
 EXEMPLO DE NEGAÇÃO: ! ou é true ou é false. <br> Uma coisa que não é true, é false. Uma coisa que não é false, é true.<br> 
 O operador de negação é um operador bem simples de entender.<hr>
 && - Dois e comerciais: Serve para conjunção, é chamado de elógico. E um operador binário, ou seja, tem dois valores lógicos, um de cada lado, que nos dá o resultado lógico da expressão.<br><hr>
-|| - Sinal ou tecla de pipe: Serve para disjunção, é chamado de oulógico. E também é um operador binário, e assim como os dois && comercial, ele também nos dá um resultado lógico<br><hr>
+|| - Sinal ou tecla de pipe: Serve para disjunção, é chamado de oulógico. E também é um operador binário, e assim como os dois && comercial, ele também nos dá um resultado lógico da expressão. <br>A diferença do && comercial e do || pipe, é que com o uso do pipe, que é o ou lógico, nele basta que um dos resultados sejam verdadeiros para que o resultado da expressão seja verdadeiro.<br><hr>
 
