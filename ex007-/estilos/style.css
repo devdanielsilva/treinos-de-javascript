@@ -11,5 +11,8 @@ body{
     align-items: center;
 }
 button{
-    
+    border-radius: 20px;
+    width: 6vw;
+    color: whitesmoke;
+    background-color: cadetblue;
 }
