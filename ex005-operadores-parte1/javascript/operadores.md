@@ -24,7 +24,7 @@ O typeof é uma palavra-chave em JavaScript que retornará o tipo da variável q
 ! - Negação, Sinal de Exclamação: Serve para negação, ou seja, quer dizer não.<br> O operador de negação é tratado como um operador unário.<br> Ou seja, ele só tem um operando, isso é depois da exclamação colocamos ou o valor true (verdadeiro) ou, o o valor false (falso). <br>Ou uma expressão que dê true ou false.<br>
 EXEMPLO DE NEGAÇÃO: ! ou é true ou é false. <br> Uma coisa que não é true, é false. Uma coisa que não é false, é true.<br> 
 O operador de negação é um operador bem simples de entender.<hr>
-&& - Dois e comerciais: Serve para conjunção, é chamado de elógico. E um operador binário, ou seja, tem dois valores lógicos, um de cada lado, que nos dá o resultado lógico da expressão.<br><hr>
+&& - Dois e comerciais: Serve para conjunção, é chamado de elógico. É um operador binário, ou seja, tem dois valores lógicos, um de cada lado, que nos dá o resultado lógico da expressão.<br><hr>
 || - Sinal ou tecla de pipe: Serve para disjunção, é chamado de oulógico. E também é um operador binário, e assim como os dois && comercial, ele também nos dá um resultado lógico da expressão. <br>A diferença do && comercial e do || pipe, é que com o uso do pipe, que é o ou lógico, nele basta que um dos resultados sejam verdadeiros para que o resultado da expressão seja verdadeiro.<br><hr>
 Quando temos operadores aritméticos, relacionais e lógicos, na mesma expressão. 
 Primeiro fazemos a resolução de todos os operadores aritméticos, segundo todos os operadores relacionais e em terceiro e por último, o operador lógico.<br>
