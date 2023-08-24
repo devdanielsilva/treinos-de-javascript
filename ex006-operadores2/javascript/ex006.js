@@ -3,3 +3,10 @@ como mostra logo abaixo.*/
 var saudacao = prompt('Digite seu nome'); 
 alert('Bem-vindo a aula de operadores parte 2. ' + saudacao + '!');
 
+
+//A idade está entre 15 e 17?
+idade >= 15 && idade <= 17
+
+//A cidade está entre São Paulo e Rio de Janeiro?
+estado == 'SP' || estado == 'RJ'
+
