@@ -10,3 +10,7 @@ idade >= 15 && idade <= 17
 //A cidade está entre São Paulo e Rio de Janeiro?
 estado == 'SP' || estado == 'RJ'
 
+//O salário é acima de 1500 e não é homem?
+
+salario > 1500 && sexo != 'M'
+/*O salário é maior que 1500 e sexo é diferente de Masculino*/
