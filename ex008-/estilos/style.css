@@ -8,8 +8,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    color: white;
+
 }
-body p{
+
+body .container{
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    box-shadow: 4vh 4vh 4vh rgba(0, 0, 0, 0.459);
+    width: 70vw;
+    height: 60vh;
+    border-radius: 5vh;
+}
+body .container h1{
+    display: inline-block;
+    text-align: center;
+    width: 60vw;
+}
+
+body .container p{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    border-radius: 1vh;
 
 }

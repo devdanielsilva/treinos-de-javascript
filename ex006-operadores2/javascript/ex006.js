@@ -14,3 +14,4 @@ estado == 'SP' || estado == 'RJ'
 
 salario > 1500 && sexo != 'M'
 /*O salário é maior que 1500 e sexo é diferente de Masculino*/
+
