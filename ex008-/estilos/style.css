@@ -10,6 +10,7 @@ body{
     align-items: center;
     text-align: center;
     color: white;
+    padding: 10vw;
 
 }
 
@@ -20,11 +21,11 @@ body .container{
     width: 70vw;
     height: 60vh;
     border-radius: 5vh;
+    padding: 60px;
 }
 body .container h1{
     display: inline-block;
     text-align: center;
-    width: 60vw;
 }
 
 body .container p{
