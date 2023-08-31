@@ -34,5 +34,10 @@ alert("Olá mundo");
     sado para alterar a cor da div com id msg.
     */
 
+   var d = document.querySelector('div#msg');
+   d.style.color = 'red';
+   /*SELEÇÃO PELA CLASSE ID
+   Para isso usamos o document.querySelector('div#msg') , dentro de parenteses ( ) colocamos div#msg , que é a tag div e o id dessa div, que é #msg */
+
 
 
