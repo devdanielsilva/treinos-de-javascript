@@ -37,7 +37,13 @@ alert("Olá mundo");
    var d = document.querySelector('div#msg');
    d.style.color = 'red';
    /*SELEÇÃO PELA CLASSE ID
-   Para isso usamos o document.querySelector('div#msg') , dentro de parenteses ( ) colocamos div#msg , que é a tag div e o id dessa div, que é #msg */
+   Para isso usamos o document.querySelector('div#msg') , dentro de parenteses ( ) colocamos div#msg , que é a tag div e o id dessa div, que é #msg 
+   
+   ID é chamado por #e o nome do id.
+   CLASSE é chamado por .e o nome da classe.*/
 
+   d.style.background = 'blue';/*d.style.background = 'blue'; mudar a cor de fundo dessa div. */
+
+   /*querySelector( ); serve para fazer alterações rápidas no site. */
 
 
