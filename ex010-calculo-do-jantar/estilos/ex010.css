@@ -9,10 +9,31 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 10vw;
 }
 
-body .container img{
+body h1{
+    display: block;
+    text-align: center;
+}
+
+body .container{
+    width: 50vw;
+    height: 30vh;
+    border-radius: 5vh;
+    padding: 60px;
+}
+body #img{
     display: inline;
-    max-width: 15vw;
+    width: 5%;
+    height: 10px;
+    padding: 60px;
+}
+
+body #campo{
+    display: flex;
+    padding: 1.5vh;
+    justify-content: center;
+    align-items: center;
 }
