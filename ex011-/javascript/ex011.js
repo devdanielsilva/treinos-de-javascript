@@ -1,6 +1,6 @@
-var idade = parseInt(prompt('Digite sua idade'));
+var idade = pasrseInt(prompt('Digite sua idade'));
 if(idade <= 17){
-    alert('Você é menor de idade!');
-} else if(idade >= 18){
-    alert('Você é maior de idade, você já pode ser preso!');
+    print('Você é menor de idade!');
+}else if(idade >= 18){
+    print('Você é maior de idade, e você já pode ser preso"');
 }
