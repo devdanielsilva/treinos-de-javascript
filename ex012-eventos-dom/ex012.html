@@ -22,8 +22,14 @@
     </style>
 </head>
 <body>
-    <div id="area">
+    <div id="area" onclick="clicar()">
         <p>Interaja......</p>
     </div>
+    <script>
+        function clicar(){
+            var area = document.getElementById('area');
+            area.innerText = 'Clicou!';
+        }
+    </script>
 </body>
 </html>

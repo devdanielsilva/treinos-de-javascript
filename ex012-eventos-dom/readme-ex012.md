@@ -12,4 +12,6 @@
 
 **mouseout** - Do mesmo modo que o mouseenter, quando movemos o mouse para fora da div, será disparado o mouseout, ou seja, mover o mouse para fora da div.
 
-Existem vários outros eventos, a lista é gigante de eventos.
+Existem vários outros eventos, a lista é gigante de eventos. <br><hr>
+# FUNÇÕES EM JAVASCRIPT <br>
+
