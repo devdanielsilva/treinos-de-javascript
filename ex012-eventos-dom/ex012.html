@@ -22,20 +22,24 @@
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"><!--onclick="clicar()" É a ação de click com o mouse.
+    onmouseenter="entrar()" É a ação de entrar com o mouse em divs, section etc...
+onmouseout="sair()" É a ação de sair com o mouse de dentro alguma div, seção do site etc...-->
         <p>Interaja......</p>
     </div>
-    <script>
+    <script>//Todas as ações precisam acessar variávies, dentro ou fora das funções.
         var a = document.getElementById('area');
         function clicar(){
             a.innerText = 'Clicou!';
-        }
+        }/*a é referente a variável.
+        innerText é uma propriedade no javascript que representa o contéudo textual "Renderizado" de um nó e seus descendentes.
+        ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver o click do mouse.*/
         function entrar(){
             a.innerText = 'Entrou!';
-        }
+        }/* ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver a entrada do mouse na div.*/
         function sair(){
             a.innerText = 'Saiu!';
-        }
+        }/* ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver a saida do mouse na div.*/
     </script>
 </body>
 </html>
