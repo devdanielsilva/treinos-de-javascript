@@ -52,8 +52,8 @@
     </section>
     <script>
         function somar(){/*Função somar, para somar dois números.*/
-            var tn1 = document.getElementById('txtn1');/*Variável da caixa de texto n1.*/
-            var tn2 = document.querySelector('input#txtn2');/*Variável da caixa de texto n2.*/
+            var tn1 = document.getElementById('txtn1');/*Variável da caixa de texto n1. document.getElementById('txtn1') é para fazer a ligação com caixa n1.*/
+            var tn2 = document.querySelector('input#txtn2');/*Variável da caixa de texto n2. document.querySelector('input#txtn2') é para fazer a ligação com caixa n2 através do seletor da caixa n2.*/
             var res = document.getElementById('res');/*Variável de resultado, que vai fornecer o resultado final da soma. */
             var n1 = Number(tn1.value);/*Variável que vai receber o primeiro número da soma.*/
             var n2 = Number(tn2.value);/*Variável que vai receber o segundo número da soma.*/
