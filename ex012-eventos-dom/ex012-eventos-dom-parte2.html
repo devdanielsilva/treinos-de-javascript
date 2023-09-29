@@ -11,13 +11,21 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 100px;
+            color: whitesmoke;
         }
-
+        section #area{
+            background-color: red;
+           
+        }
     </style>
 </head>
 <body>
     <section id="area">
-        <h1>Somando Valores</h1>
+        <h1>Somando Valores</h1><input type="text">
+        <input type="number" name="txtn1" id="txtn1"><!--O name é usado para poder ser acessado pelo PHP.-->
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="Somar" onclick="somar()">
     </section>
     <script></script>
 </body>
