@@ -14,16 +14,20 @@
             margin: 100px;
             color: whitesmoke;
         }
-        section #area{
+        /*Seletor da section com #id area.*/
+         #area{
             background-color: red;
+            width: 30rem;
+            height: 200px;
+            text-align: center;
            
         }
     </style>
 </head>
 <body>
     <section id="area">
-        <h1>Somando Valores</h1><input type="text">
-        <input type="number" name="txtn1" id="txtn1"><!--O name é usado para poder ser acessado pelo PHP.-->
+        <h1>Somando Valores</h1>
+        <input type="number" name="txtn1" id="txtn1"> + <!--O name é usado para poder ser acessado pelo PHP.-->
         <input type="number" name="txtn2" id="txtn2">
         <input type="button" value="Somar" onclick="somar()">
     </section>
