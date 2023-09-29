@@ -44,16 +44,19 @@
         <input type="number" name="txtn1" id="txtn1"> + <!--O name é usado para poder ser acessado pelo PHP.-->
         <input type="number" name="txtn2" id="txtn2">
         <input type="button" value="Somar" onclick="somar()">
-        <div class="res">
+        <div id="res">
             <p><strong>Resultado da Soma</strong></p>
         </div>
     </section>
     <script>
         function somar(){
             var tn1 = document.getElementById('txtn1');
-            var tn2 = document.querySelector('inputtxtn2');
+            var tn2 = document.querySelector('input#txtn2');
             var res = document.getElementById('res');
             var n1 = Number(tn1.value);
+            var n2 = Number(tn2.value);
+            var s = n1 + n2;
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igaul a <strong>${s}</strong>`
         }
     </script>
 </body>
