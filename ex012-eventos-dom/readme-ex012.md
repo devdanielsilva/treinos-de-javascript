@@ -15,3 +15,7 @@
 Existem vários outros eventos, a lista é gigante de eventos. <br><hr>
 # FUNÇÕES EM JAVASCRIPT <br>
 
+<hr><br>
+# ERROS NO JAVASCRIPT
+Uma desvantagem no JavaScript é que ele não te dá o erro. O VSCODE mostra o erro.<br>
+Para saber onde está o erro, basta ir no inspecionar, que é DevTools no navegador, que ele mostra tudo o que está acontecendo.

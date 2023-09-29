@@ -28,24 +28,39 @@
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"><!--onclick="clicar()" É a ação de click com o mouse.
+    <div id="area"><!--Só que usar ao invés de usar os eventos dentro da <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> Podemos usar dentro do próprio JavaSricpt, para não deixa o HTML poluído.
+        As ação onclick="clicar()" É a ação de click com o mouse.
     onmouseenter="entrar()" É a ação de entrar com o mouse em divs, section etc...
 onmouseout="sair()" É a ação de sair com o mouse de dentro alguma div, seção do site etc...-->
         <p>Interaja......</p>
     </div>
     <script>//Todas as ações precisam acessar variávies, dentro ou fora das funções.
+    /*Podemos ativar os events list através do html mas, podemos ativar de dentro do próprio javascript, que é o mais usado.*/
         var a = document.getElementById('area');
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseout', sair);
+        /*Os addEventListener, vão ficar prestando a atenção no evento que ocorrer com a div.*/
         function entrar(){
             a.innerText = 'Entrou!';
-        }/* Dentro de aspas simples '' ou aspas duplas "" , é o texto que vai aparecer quando houver a entrada do mouse na div.*/
+            a.style.background = 'blue';
+        }/* Dentro de aspas simples '' ou aspas duplas "" , é o texto que vai aparecer quando houver a entrada do mouse na div.
+        
+        a.style.background = 'blue'; quando o cursor do mouse entrar na div, a div vai ficar azul.*/
         function clicar(){
             a.innerText = 'Clicou!';
+            a.style.background = 'red';
         }/*a é referente a variável.
         innerText é uma propriedade no javascript que representa o contéudo textual "Renderizado" de um nó e seus descendentes.
-        ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver o click do mouse.*/
+        ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver o click do mouse.
+        
+        a.style.background = 'red'; quando houver um click dentro da div, a div vai ficar vermelha.*/
         function sair(){
             a.innerText = 'Saiu!';
-        }/* ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver a saida do mouse na div.*/
+            a.style.background = 'green';
+        }/* ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver a saida do mouse na div.
+        
+        a.style.background = 'green'; a div vai ficar verder quando o cursor do mouse sair de dentro da div.*/
     </script>
 </body>
 </html>
