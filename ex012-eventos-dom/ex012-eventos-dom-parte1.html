@@ -35,14 +35,14 @@ onmouseout="sair()" É a ação de sair com o mouse de dentro alguma div, seçã
     </div>
     <script>//Todas as ações precisam acessar variávies, dentro ou fora das funções.
         var a = document.getElementById('area');
+        function entrar(){
+            a.innerText = 'Entrou!';
+        }/* Dentro de aspas simples '' ou aspas duplas "" , é o texto que vai aparecer quando houver a entrada do mouse na div.*/
         function clicar(){
             a.innerText = 'Clicou!';
         }/*a é referente a variável.
         innerText é uma propriedade no javascript que representa o contéudo textual "Renderizado" de um nó e seus descendentes.
         ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver o click do mouse.*/
-        function entrar(){
-            a.innerText = 'Entrou!';
-        }/* ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver a entrada do mouse na div.*/
         function sair(){
             a.innerText = 'Saiu!';
         }/* ''dentro de aspas simples ou duplas, é o texto que vai aparecer quando houver a saida do mouse na div.*/
