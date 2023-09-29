@@ -12,16 +12,27 @@
             justify-content: center;
             align-items: center;
             margin: 100px;
+            padding: 150px;
             color: whitesmoke;
         }
-        /*Seletor da section com #id area.*/
+
          #area{
             background-color: red;
-            width: 30rem;
-            height: 200px;
+            width: 50rem;
+            height: 220px;
             text-align: center;
+            font: 20pt normal Arial;
            
+        } /*Seletor da section com #id area.*/
+
+        input{
+            font: normal 18pt Arial;
         }
+
+        .res{
+            margin-top: 20px;
+        }/*Seletor da div .res de resultado.*/
+
     </style>
 </head>
 <body>
@@ -30,6 +41,9 @@
         <input type="number" name="txtn1" id="txtn1"> + <!--O name é usado para poder ser acessado pelo PHP.-->
         <input type="number" name="txtn2" id="txtn2">
         <input type="button" value="Somar" onclick="somar()">
+        <div class="res">
+            <p><strong>Resultado da Soma</strong></p>
+        </div>
     </section>
     <script></script>
 </body>
