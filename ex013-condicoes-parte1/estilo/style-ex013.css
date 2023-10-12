@@ -7,4 +7,11 @@
 body{
     background: rgb(213,126,235);
     background: linear-gradient(315deg, rgba(213,126,235,1) 21%, rgba(0,212,255,1) 88%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px 0px 20px;
+    max-width: 100%;
+    height: 649px;
 }
