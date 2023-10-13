@@ -3,8 +3,8 @@ function calcular(){
     var txtv = document.querySelector('input#txtvel');
     var res = document.querySelector('div#res')//Para acessar o id no querySelector, se usa o #
     //Id usa # e Class se usa o . ponto
-    var vel = Number(txtv.value);
-    res.innerHTML = 'Sua vlocidade atual é de ${vel}';
+    var vel = Number('txtv.value');
+    res.innerHTML = <p>'Sua velocidade atual é de <strong>${vel}</strong>'</p>;//O innerHTML pode ser usado para receber o conteúdo de um elemento HTML ou para definir um novo conteúdo para ele. Para isso, podemos utilizar a sintaxe do DOM (document. getElement) para realizar essas ações através do JavaScript.
 }
 
 alert(`A velocidade do seu Carro é ${velocidade}Km/h`);
