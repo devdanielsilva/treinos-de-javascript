@@ -29,11 +29,14 @@ h1 {
 .container {
   background-color: #00dbde;/*Cor da section.*/
   background-image: linear-gradient(180deg, #00dbde 0%, #fc00ff 100%);/*Gradiente da section.*/
+  
   width: 50rem;/*Largura da section.*/
   height: 330px;/*Altura da section*/
   text-align: center;
   font: 20pt normal Arial;/*Tamanho da fonte em pt, estilo da fonte e a fonte.*/
+
   box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.377); /*Sombra da section*/
+
   border-radius: 20px; /*Arrendondar as bordas.*/
   margin: 150px; /*Margin da div.*/
   padding: 50px; /*Padding da div.*/
@@ -42,6 +45,8 @@ h1 {
 input {
   font: normal 18pt Arial;
   border-radius: 10px;/*Borda do input(caixa para digitar os númerosa) e do input do botão (button).*/
-  width: 20%;
+
+  width: 20%;/*Tamanho das caixas de input, dos números e do botão de verificar.*/
+
   text-align: center;
 } /*Seletor dos campos de input, Input para digitar ou aumentar ou diminuir os números e o input do botão de verificar.*/
