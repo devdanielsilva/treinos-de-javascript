@@ -17,6 +17,9 @@ body{
     height: 649px;
 }
 
+h1{
+    text-align: center;
+}
 .title{
     /*display: block;
     max-width: 50%;
