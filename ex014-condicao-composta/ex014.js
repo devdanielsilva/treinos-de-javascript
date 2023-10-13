@@ -1,6 +1,7 @@
 var país = 'Brasil';
-if(país == 'Brasil'){
+/*Condição Composta - Com IF e ELSE. */
+if(país == 'Brasil'){//SE
     document.write('Você é Brasileiro!');
-} else {
+} else {//SENÃO
     document.write('Você é Estrangeiro!');
 }
