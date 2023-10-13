@@ -1,4 +1,4 @@
-var velocidade = 70;
+var velocidade = 61;
 alert(`A velocidade do seu Carro é ${velocidade}Km/h`);
 if (velocidade < 15){
     alert("Velocidade Normal! Dirija Sempre com cautela.");
