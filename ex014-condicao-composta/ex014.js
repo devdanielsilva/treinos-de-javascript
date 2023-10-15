@@ -7,10 +7,10 @@ function calcular() {
   if (país != "Brasil") {
     /*SE. != É sinal de diferente.
     Ao utilizar o sinal de diferente != , a mensagem que vai para o usuário no IF , vai inverte a mensagem de você é Brasileiro(a) para você é Estrangeiro e no ELSE ,também inverte, vai a mensagem de você é Brasileiro(a).*/
-    res.innerHTML += "Você é <strong>Estrangeiro(a)</strong>!"; //Mensagem para Estrangeiros.
+    res.innerHTML += "<p>Você é <strong>Estrangeiro(a)</strong>!</p>"; //Mensagem para Estrangeiros.
   } else {
     //SENÃO
-    res.innerHTML += `Você é <strong>Brasileiro(a)</strong>!`; //Mensagem para brasileiro.
+    res.innerHTML += `<p>Você é <strong>Brasileiro(a)</strong>!</p>`; //Mensagem para brasileiro.
     /*O += é para concatenar a mensagem Você é Brasileiro com a variável res ,que é a variável da div da resposta. */
   }
 }
