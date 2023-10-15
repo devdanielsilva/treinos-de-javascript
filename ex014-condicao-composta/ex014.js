@@ -2,7 +2,7 @@ function calcular() {
 
 let país = document.querySelector('input#txtpais');
 let result = document.querySelector('div#res');
-let but = text (país.value);
+let but = Text(país.value);
 
     result.innerHTML = `<br><p>Vivendo em <strong>${país} .</strong> </p>`;/*Aspas com crase, podemos concatenar com a variável usando o símbolo de cifrão $ e sinais de chaves, {} Abre chaves e fecha chaves. E fica assim: ${Nome da Variável aqui dentro}; */
 /*Condição Composta - Com IF e ELSE. */
