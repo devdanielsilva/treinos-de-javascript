@@ -11,6 +11,7 @@ function calcular() {
   } else {
     //SENÃO
     res.innerHTML += `Você é <strong>Brasileiro(a)</strong>!`; //Mensagem para brasileiro.
+    /*O += é para concatenar a mensagem Você é Brasileiro com a variável res ,que é a variável da div da resposta. */
   }
 }
 /*Erro na parte do if else, Se for Brasil mostra estrangeiro e se for estrangeiro mostra brasileiro. WTF */
