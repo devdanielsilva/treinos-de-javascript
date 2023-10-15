@@ -10,7 +10,7 @@ function calcular() {
     res.innerHTML += "<p>Você é <strong>Estrangeiro(a)</strong>!</p>"; //Mensagem para Estrangeiros.
   } else {
     //SENÃO
-    res.innerHTML += `<p>Você é <strong>Brasileiro(a)</strong>!</p>`; //Mensagem para brasileiro.
+    res.innerHTML += `Você é <strong>Brasileiro(a)</strong>!`; //Mensagem para brasileiro.
     /*O += é para concatenar a mensagem Você é Brasileiro com a variável res ,que é a variável da div da resposta. */
   }
 }
