@@ -1,0 +1,2 @@
+# Condições Múltiplas <br>
+A estrutura switch case é uma estrutura de controle condicional que permite tomar decisões com base em diferentes casos ou valores. É usada quando há uma necessidade de executar diferentes blocos de código com base em uma determinada variável ou expressão.
