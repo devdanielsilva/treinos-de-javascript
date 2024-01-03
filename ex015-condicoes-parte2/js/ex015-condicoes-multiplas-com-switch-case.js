@@ -2,8 +2,8 @@ var agora = new Date();
 var diaSem = agora.getDay(); /*Pega o dia da semana. */
 /*0 = Domingo, 1 = Segunda, 2 = Terça, 3 = Quarta, 4 = Quinta, 5 = Sexta, 6 = Sábado */
 
-console.log(diaSem);
-/*Vai o número da posição do dia e não o nome do dia.
+/*console.log(diaSem);
+Vai o número da posição do dia e não o nome do dia.
 Para resolver isso, fazemos isso ....
  */
 
