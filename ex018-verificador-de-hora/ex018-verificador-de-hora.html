@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de Horas</title>
+    <title>Hora do Dia</title>
     <link rel="stylesheet" href="style/ex018-verificador-de-horas.css">
 </head>
-<body>
-    
+<body onload="carregar()"><!--onload é quando carregar a página, vai ser chamado o código da function carregar() -->
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+        <div id="msg">
+            
+        </div>
+        <div id="foto">
+            <img id= "imagem" src="Imagens/Manhã.jpg" alt="Foto de acordo com cada momento do dia.">
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Curso em Vídeo</p><!--Sinal de Copyright no HTML, usamos &copy; sinal de & comercial, deopis a palavra copy e ; ponto e virgula.-->
+    </footer>
     <script src="JS/ex018-verificador-de-horas.js"></script>
 </body>
 </html>
