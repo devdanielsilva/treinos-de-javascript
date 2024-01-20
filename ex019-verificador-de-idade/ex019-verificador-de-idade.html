@@ -7,7 +7,32 @@
     <link rel="stylesheet" href="style/ex019-verificador-de-idade.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <!--Os name dos input com type= "radio", TEM QUE SER O MESMO NOME, o nome "radsex", que para os 2 tipos de sexo.-->
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Curso em Vídeo</p><!--Sinal de Copyright no HTML, usamos &copy; sinal de & comercial, deopis a palavra copy e ; ponto e virgula.-->
+    </footer>
     <script src="JS/ex019-verificador-de-idade.js"></script>
 </body>
 </html>
