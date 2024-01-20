@@ -25,42 +25,40 @@ function verificar() {
       if (idade >= 0 && idade < 10) {
         //Se não tiver entre 0 e 10, ele está acima de 10.
         //Criança
-        img.setAttribute(
-          'src',
-          'homem-criança.jpg'
+        img.setAttribute('src','homem-criança.png'
         ); /*img.setAttribute("src", "homem-criança.jpg"); Serve para carregar imagem, é como se fosse a tag img no HTML, <img src="" alt="" srcset=""> */
       } else if (idade < 29) {
         //Jovem
-        img.setAttribute('src', 'homem-jovem.jpg');
+        img.setAttribute('src', 'homem-jovem.png');
       } else if (idade < 50) {
         //Adulto
-        img.setAttribute('src', 'homem-adulto.jpg');
+        img.setAttribute('src', 'homem-adulto.png');
       } else {
-        img.setAttribute('src', 'homem-idoso.jpg');
+        img.setAttribute('src', 'homem-idoso.png');
         //Idoso
       }
     } else if (fsex[1].checked) {
       genero = 'Mulher';
       if (idade >= 0 && idade < 10) {
         //Criança
-        img.setAttribute('src', 'mulher-criança.jpg');
+        img.setAttribute('src', 'mulher-criança.png');
       } else if (idade < 29) {
         /*Invés de colocar (idade >= 10 && idade < 29) ,colocamos (idade <29), porque é uma questão de lógica. Se não está if, entre 0 && 10, ou seja, está acima de 10.*/
         //Jovem
-        img.setAttribute('src', 'mulher-jovem.jpg');
+        img.setAttribute('src', 'mulher-jovem.png');
       } else if (idade < 50) {
         //Adulto
-        img.setAttribute('src', 'mulher-adulta.jpg');
+        img.setAttribute('src', 'mulher-adulta.png');
       } else {
         //Idoso
-        img.setAttribute('src', 'mulher-idosa.jpeg');
+        img.setAttribute('src', 'mulher-idosa.png');
       }
     }
     res.style.textAlign =
       'center'; /*Para centralizar a mensagem de resposta para o usuário. */
-    res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
+    res.innerHTML = `Detectamos ${genero} com ${idade} anos. <br>`;
     res.appendChild(
-      'img'
+      img
     ); /*res.appendChild('img'); Serve para colocar um elemento img, depois de um elemento innerHTML, que é um elemento para textos. */
   }
 }
