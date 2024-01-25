@@ -1,20 +1,24 @@
 * {
+  /*Seletor Global da página.*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
+  /*Seletor do corpo da página.*/
   background: rgb(67, 140, 235);
   font: normal 15pt Arial;
 }
 
 header {
+  /*Seletor do cabeçalho da página.*/
   color: white;
   text-align: center;
   margin: 15px;
   padding: 15px;
 }
 section {
+  /*Seletor da section que terá as divs e elementos dentro dela.*/
   background: white;
   border-radius: 10px;
   padding: 15px;
@@ -25,6 +29,7 @@ section {
 }
 
 div {
+  /*Seletor para ajuste das divs.*/
   text-align: center;
   font-size: 20pt;
   margin: 20px 0px 0px 0px;
@@ -32,17 +37,20 @@ div {
 }
 
 #txtano {
+  /*seletor do input do ano, onde será digitado o ano.*/
   width: 15%;
   font-size: 15pt;
   text-align: center;
 }
 
 img#foto {
+  /*Seletor de imagem da tag span.*/
   width: 30vw;
   height: auto;
 }
 
 footer {
+  /*Footer com o direitos autorais.*/
   color: white;
   text-align: center;
   font-style: italic;
