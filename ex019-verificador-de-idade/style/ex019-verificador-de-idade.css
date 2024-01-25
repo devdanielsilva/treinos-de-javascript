@@ -37,9 +37,9 @@ div {
   text-align: center;
 }
 
-#res span {
-  width: 200px;
-  height: 200px;
+img#foto {
+  width: 30vw;
+  height: auto;
 }
 
 footer {

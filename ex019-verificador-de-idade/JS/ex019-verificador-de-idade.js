@@ -28,14 +28,14 @@ function verificar() {
 
         //img.setAttribute("src", "homem-criança.png"); /*img.setAttribute("src", "homem-criança.jpg"); Serve para carregar imagem, é como se fosse a tag img no HTML, <img src="" alt="" srcset=""> */
         img.src = "imagens/homem-criança.png";
-      } else if (idade < 21) {
+      } else if (idade < 30) {
         //Jovem
         //img.setAttribute("src", "homem-jovem.png");
         /*document.getElementById("imagem").innerHTML =
           "<img src= 'Imagens/homem-jovem.png' width= '250px' >"; 
           TENTATIVA DE MOSTRAR IMAGEM NA PÁGINA*/
         //img.setAttribute("src","homem-criança.png" );
-        img.src = "imagens/homem-jovem.png" ;
+        img.src = "imagens/homem-jovem.png";
       } else if (idade < 50) {
         //Adulto
         //img.setAttribute("src", "homem-adulto.png");
@@ -49,7 +49,7 @@ function verificar() {
       if (idade >= 0 && idade < 10) {
         //Criança
         img.src = "imagens/mulher-criança.png";
-      } else if (idade < 29) {
+      } else if (idade < 30) {
         /*Invés de colocar (idade >= 10 && idade < 29) ,colocamos (idade <29), porque é uma questão de lógica. Se não está if, entre 0 && 10, ou seja, está acima de 10.*/
         //Jovem
         img.src = "imagens/mulher-jovem.png";
