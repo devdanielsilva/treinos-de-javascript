@@ -1,54 +1,71 @@
 * {
-    /*Seletor Global da página.*/
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  /*Seletor Global da página.*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    /*Seletor do corpo da página.*/
-    background: rgb(67, 140, 235);
-    font: normal 15pt Arial;
-  }
-  
-  header {
-    /*Seletor do cabeçalho da página.*/
-    color: white;
-    text-align: center;
-    margin: 15px;
-    padding: 15px;
-  }
+body {
+  /*Seletor do corpo da página.*/
+  background: rgb(67, 140, 235);
+  font: normal 15pt Arial;
+  margin: 80px;
+}
 
-  section {
-    /*Seletor da section que terá as divs e elementos dentro dela.*/
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 50vw;
-    height: auto;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
-  }
-  
-   #dados{
-    /*Seletor para ajuste das divs.*/
-    font-size: 20pt;
-    margin: 20px 0px 0px 0px;
-    padding: 15px 0px 0px 0px;
-  }
-  
-  input {
-    /*seletor do input do ano, onde será digitado o ano.*/
-    width: 15%;
-    font-size: 15pt;
-    text-align: center;
-  }
+header {
+  /*Seletor do cabeçalho da página.*/
+  color: white;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
 
-  footer {
-    /*Footer com o direitos autorais.*/
-    color: white;
-    text-align: center;
-    font-style: italic;
-    margin: 15px;
-  }
-  
+section {
+  /*Seletor da section que terá as divs e elementos dentro dela.*/
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 50vw;
+  margin: auto;
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.363);
+}
+
+#dados {
+  /*Seletor para ajuste das divs.*/
+  font-size: 20pt;
+  padding: 15px;
+}
+
+input {
+  /*seletor do input do ano, onde será digitado o ano.*/
+  width: 15%;
+  font-size: 15pt;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#res {
+  padding: 15px;
+}
+
+#contar {
+  width: 20%;
+  font-size: 20pt;
+  margin: 10px;
+}
+#contar:hover {
+  background: rgb(78, 8, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 8, 255, 1) 28%,
+    rgba(0, 118, 255, 1) 67%
+  );
+  color: white;
+}
+footer {
+  /*Footer com o direitos autorais.*/
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin: 15px;
+}
